@@ -1,3 +1,17 @@
+###################################################################################################
+## Code to compute RAMSES HYPERSPECTRAL WAVELENGTHS
+## Catherine Schmechtig 
+## Octobre 2026
+##
+## Input : An argo metadatafile 
+## following the Argo syntax presented in the Argo user's manual https://doi.org/10.13155/29825 
+##
+## Output : a list of the computed wavelengths
+##
+## Be aware that it is based on the attached example 3902759_meta_aux.nc 
+## so some modifications could be necessary as soon as the PREDEPLOYMENT_CALIB_COEFFICIENT has been 
+## written in a different order 
+###################################################################################################
 library(ncdf4)
 library(stringr)
 require("oce")
