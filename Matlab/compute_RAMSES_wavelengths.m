@@ -1,7 +1,7 @@
 function [waveb, WAVELENGTH] = compute_RAMSES_wavelengths(filenc_meta, META)
 % COMPUTE_RAMSES_WAVELENGTHS  Wavelengths of the 255 pixels, and the
 % binned wavelengths for the area of interest configured on the float.
-% MATLAB code based on Catherine Schmechtig's R code, translated with help
+% Matlab code based on Catherine Schmechtig's R code, translated with help
 % from Claude, 8.10.2026
 %
 %   [waveb, WAVELENGTH] = compute_RAMSES_wavelengths('file_meta.nc', META_RAMSES)

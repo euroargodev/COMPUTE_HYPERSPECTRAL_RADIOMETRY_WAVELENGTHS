@@ -1,7 +1,7 @@
 function META_RAMSES = read_META_RAMSES(filenc_meta)
 % READ_META_RAMSES  Parse RAMSES wavelength polynomial coefficients from an
 % Argo meta NetCDF file.
-% MATLAB code based on Catherine Schmechtig's R code, translated with help
+% Matlab code based on Catherine Schmechtig's R code, translated with help
 % from Claude, 8.10.2026
 %
 %   META_RAMSES = read_META_RAMSES('file_meta.nc')
